@@ -5,7 +5,7 @@ export default class Account extends Http {
   static LogOnForMApp(req) {
     return this.post('/Account/Member.LogOnForMApp', req, true)
   }
-  // 注册
+  // 注册1
   static RegisterForMApp(req) {
     return this.post('/Account/Member.RegisterForMApp', req, true)
   }
